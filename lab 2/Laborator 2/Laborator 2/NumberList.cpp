@@ -1,15 +1,18 @@
-#include "NumberList.h"
-
+#include "NumberList.h";
 #include <iostream>
-#define _SECURE_CRT_NO_WARNINGS
 
 void NumberList::Init()
 {
 	count = 0;
 }
-void NumberList::Add(int x)
+bool NumberList::Add(int x)
 {
-	numbers[++count] = x;
+	if (count < 10)
+	{
+		numbers[count] = x;
+		count = count + 1;
+	}
+	return false;
 }
 void NumberList::Sort()
 {
@@ -30,3 +33,4 @@ void NumberList::Print()
 		std :: cout << numbers[i]<<" ";
 
 }
+

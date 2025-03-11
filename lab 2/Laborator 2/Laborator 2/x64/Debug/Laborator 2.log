@@ -1,6 +1,5 @@
 ﻿  main.cpp
   NumberList.cpp
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\sal.h(2361,8): error C2059: syntax error: 'string'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\sal.h(2361,12): error C2143: syntax error: missing ';' before '{'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.29.30133\include\sal.h(2361,12): error C2447: '{': missing function header (old-style formal list?)
+F:\Facultate 1\OOP\lab 2\Laborator 2\Laborator 2\NumberList.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   Generating Code...
+  Laborator 2.vcxproj -> F:\Facultate 1\OOP\lab 2\Laborator 2\x64\Debug\Laborator 2.exe

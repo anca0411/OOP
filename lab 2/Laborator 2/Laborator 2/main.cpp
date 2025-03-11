@@ -4,7 +4,7 @@
 #define _SECURE_CRT_NO_WARNINGS
 
 ; int main()
-{	
+{
 	NumberList list;
 	list.Add(10);
 	list.Add(7);
@@ -15,4 +15,4 @@
 	list.Sort();
 	list.Print();
 	return 0;
-}x
+}

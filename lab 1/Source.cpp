@@ -7,7 +7,7 @@ int main()
 	{
 		printf("Acesta este un numar: %d; Acesta este numarul 2: %d\n", test[i] - '0', 123);
 	}
-	cout << " Primul laborator la OOP";
+	cout << " Primul laborator OOP";
 
 	return 0;
 }
