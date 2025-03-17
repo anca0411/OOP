@@ -1,18 +1,16 @@
 #include <iostream>
+#include <string.h>
+#include "Student.h"
+#include "globals.h"
+using namespace std;
+int main()
+{
+	Student a,b;
 
-#include "NumberList.h"
-#define _SECURE_CRT_NO_WARNINGS
-
-; int main()
-{	
-	NumberList list;
-	list.Add(10);
-	list.Add(7);
-	list.Add(5);
-	list.Add(3);
-	list.Add(13);
-	list.Add(16);
-	list.Sort();
-	list.Print();
-	return 0;
-}x
+	a.SetName("Alex");
+	b.SetName("Andrei");
+	cout << namecomp(a, b) << endl;
+	a.SetMath(5);
+	b.SetMath(7);
+	cout << mathcomp(a, b) << endl;
+}
