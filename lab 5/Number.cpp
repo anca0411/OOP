@@ -5,6 +5,7 @@
 #include <cstring>
 #include <cstdlib>
 #include <cstdio> 
+
 using namespace std;
 
 int Number::DetectareBaza(const char* b)
@@ -67,9 +68,9 @@ void Number::SwitchBase(int newBase)
 	{
 		int r = nr % newBase;
 		if (r >= 0 || r <= 9)
-			nrnou[i++] = r - '0';
+			nrnou[i++] = r + '0';
 		else if(r>='A' || r<='F')
-			nrnou[i++] = r - 'A' + 10;
+			nrnou[i++] = r + 'A' - 10;
 		
 		nr = nr / newBase;
 	}
